@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Something In The Past - History of WWI & WWII">
-    <title>Something In The Past</title>
+    <meta name="description" content="Contact Us - Something In The Past">
+    <title>Contact Us - Something In The Past</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -52,7 +52,41 @@
             padding: 60px 20px;
             max-width: 1200px;
             margin: 0 auto;
-            text-align: justify;
+            text-align: center;
+        }
+
+        .contact-form {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form button {
+            background-color: #6c5ce7;
+            color: white;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #00b894;
         }
 
         footer {
@@ -78,8 +112,8 @@
 <body>
 
 <header>
-    <h1>Something In The Past</h1>
-    <p>The History of World War I & World War II</p>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you!</p>
 </header>
 
 <nav>
@@ -90,19 +124,23 @@
 </nav>
 
 <section>
-    <h2>Welcome to Something In The Past</h2>
-    <p>On this website, you'll explore two of the most impactful events in history: World War I and World War II. Learn about their causes, battles, consequences, and how they shaped the world we live in today.</p>
+    <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or feedback, feel free to contact us. We're always happy to hear from you!</p>
 
-    <h3>What You'll Learn:</h3>
-    <ul>
-        <li>The causes and key events of World War I and II.</li>
-        <li>The most significant battles and turning points.</li>
-        <li>The impact of these wars on the global stage.</li>
-        <li>The legacy and lessons that can still be applied today.</li>
-    </ul>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <h3>Explore the History:</h3>
-    <p>Click on the links to learn more about each war and the events that changed the course of history.</p>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
 </section>
 
 <footer>

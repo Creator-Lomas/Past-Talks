@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="World War I - The Great War">
+    <title>World War I - The Great War</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6c5ce7, #00b894);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background-color: #2d3436;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #00b894;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #2d3436;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            nav a {
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>World War I - The Great War</h1>
+    <p>Explore the Causes, Battles, and Aftermath of the First World War</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="wwi.html">World War I</a>
+    <a href="wwii.html">World War II</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <h2>The Causes of World War I</h2>
+    <p>World War I was a devastating conflict that changed the course of history. The war involved many countries and was primarily fought in Europe, although its impact was felt worldwide. It was sparked by a combination of long-standing rivalries, militarism, and a complex network of alliances.</p>
+    <h3>Militarism and the Arms Race</h3>
+    <p>In the years leading up to the war, European powers were heavily invested in building up their military forces, particularly their armies and navies. This led to an arms race, with each country striving to outdo the others in terms of firepower and technology. The build-up of weapons and the development of new military technologies created a climate of tension and fear.</p>
+    <h3>Nationalism and Ethnic Tensions</h3>
+    <p>Nationalism—the belief in the superiority of one's nation—was on the rise in Europe. Many ethnic groups sought independence from their empires, while others looked to expand their territories. In the Balkans, particularly, nationalist movements and territorial disputes were a constant source of conflict.</p>
+    <h3>Alliance System and Entanglements</h3>
+    <p>The complex system of alliances between European powers played a significant role in the escalation of the war. These alliances were meant to create a balance of power but instead resulted in the rapid involvement of many countries once the conflict began. The two main alliances were:</p>
+    <ul>
+        <li><strong>The Triple Entente:</strong> France, Russia, and Great Britain.</li>
+        <li><strong>The Triple Alliance:</strong> Germany, Austria-Hungary, and Italy.</li>
+    </ul>
+    <h3>The Assassination of Archduke Franz Ferdinand</h3>
+    <p>The assassination of Archduke Franz Ferdinand of Austria-Hungary in Sarajevo in June 1914 is widely considered the spark that ignited World War I. The Archduke and his wife were killed by Gavrilo Princip, a Bosnian Serb nationalist, leading to Austria-Hungary declaring war on Serbia. This event triggered a chain reaction, and within weeks, Europe was plunged into a full-scale war.</p>
+
+    <h2>Major Fronts and Key Battles</h2>
+    <p>The war was fought on multiple fronts across Europe and beyond. Below are some of the most notable battles and theaters of conflict:</p>
+
+    <h3>The Western Front</h3>
+    <p>The Western Front was the primary theater of war during World War I. It was characterized by trench warfare, where soldiers faced harsh conditions, including mud, disease, and constant artillery bombardment. The front stretched from the English Channel to Switzerland, and some of the largest battles occurred here.</p>
+    <ul>
+        <li><strong>Battle of the Somme:</strong> Fought between July and November 1916, the Battle of the Somme was one of the bloodiest battles in history, with over a million casualties. It marked the first use of tanks in battle.</li>
+        <li><strong>Battle of Verdun:</strong> A key battle between France and Germany in 1916, Verdun became a symbol of French determination. Over 700,000 soldiers were killed, wounded, or went missing.</li>
+    </ul>
+
+    <h3>The Eastern Front</h3>
+    <p>The Eastern Front was primarily fought between Germany and Austria-Hungary on one side, and Russia on the other. Unlike the Western Front, the Eastern Front was more fluid, with large battles and shifting frontlines. Despite initial successes, Russia faced significant defeats and internal turmoil, eventually leading to the Russian Revolution.</p>
+
+    <h3>The Italian Front</h3>
+    <p>The Italian Front was fought between Italy and Austria-Hungary. The mountainous terrain made it difficult for either side to gain a decisive advantage, and the front was characterized by long stalemates and harsh conditions for soldiers.</p>
+
+    <h3>The Middle Eastern and African Fronts</h3>
+    <p>World War I also extended beyond Europe, with significant campaigns in the Middle East and Africa. The Ottoman Empire fought against the British and French in places like Gallipoli and Mesopotamia. In Africa, colonial powers fought for control of territories in Africa.</p>
+
+    <h2>The End of the War</h2>
+    <p>After years of heavy casualties and destruction, the war ended in November 1918. The Allies, including France, Great Britain, and the United States, eventually wore down the Central Powers. In 1917, the United States entered the war on the side of the Allies, providing a significant boost to their resources and morale. The Central Powers began to collapse, and on November 11, 1918, Germany signed an armistice, effectively ending the war.</p>
+
+    <h2>The Treaty of Versailles</h2>
+    <p>The Treaty of Versailles was signed in 1919, officially ending World War I. The treaty imposed harsh terms on Germany, including:</p>
+    <ul>
+        <li>Severe territorial losses (e.g., the loss of the Saar Basin and all overseas colonies).</li>
+        <li>Military restrictions, including limits on the size of the German army.</li>
+        <li>Heavy reparations payments to the Allied powers.</li>
+    </ul>
+    <p>The treaty created significant resentment in Germany, and many historians argue that it laid the groundwork for the rise of Adolf Hitler and World War II.</p>
+
+    <h2>Aftermath and Legacy</h2>
+    <p>The aftermath of World War I had far-reaching effects. The war led to the collapse of several major empires, including the Austro-Hungarian Empire, the Ottoman Empire, and the Russian Empire. The map of Europe was redrawn, with new nations such as Czechoslovakia, Yugoslavia, and Poland being created. The war also had profound social and economic impacts, with widespread poverty and political upheaval in many countries.</p>
+
+    <footer>
+        <p>&copy; 2025 Something In The Past. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

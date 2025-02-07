@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Something In The Past - The History of WWI & WWII">
+    <title>Something In The Past - History of WWI & WWII</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6c5ce7, #00b894);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background-color: #2d3436;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #00b894;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #2d3436;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            nav a {
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Something In The Past</h1>
+    <p>Explore the History of WWI & WWII in Detail</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="wwi.html">World War I</a>
+    <a href="wwii.html">World War II</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome to Something In The Past</h2>
+    <p>On this website, you’ll explore the defining events of the 20th century, focusing on the two world wars that dramatically reshaped our world: World War I and World War II. These wars were the catalyst for monumental political, social, and economic changes. Dive deep into the history, the causes, and the aftermath of these wars as we take you on a journey through one of humanity's darkest yet defining chapters.</p>
+
+    <h3>What You'll Find Here:</h3>
+    <ul>
+        <li>A detailed look at the causes and key events of WWI and WWII.</li>
+        <li>Impactful battles and moments that changed the world.</li>
+        <li>The consequences of the wars on countries, economies, and societies.</li>
+        <li>The aftermath and long-term effects, including the formation of the United Nations and the rise of new powers.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2025 Something In The Past. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
